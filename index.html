@@ -17,8 +17,8 @@
     
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"/> 
-    <link rel="stylesheet" href="/css/styles.css" type="text/css"/> 
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css"/> 
+    <link rel="stylesheet" href="./css/styles.css" type="text/css"/> 
 
 </head>
 <body>
@@ -100,6 +100,7 @@ Di entrenamiento y capacitación a 3 community managers que se unieron al equipo
 </div>
 </div>
 
+<!--https://www.w3schools.com/bootstrap/bootstrap_modal.asp-->
 <div id="myModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
@@ -112,7 +113,7 @@ Di entrenamiento y capacitación a 3 community managers que se unieron al equipo
       <div class="modal-body">
       <div id="contactoDefault">
         <p><b>Completá el formulario y contratame para tu fiesta.</b></p>
-        <form method="post" name="formContacto" id="formContacto" action="contacto.php">
+        <form method="get" name="formContacto" id="formContacto">
         <div class="caja-contacto about_us_caja">
             <div class="form-group row">
                 <label class="col-sm-3">Nombre y Apellido:</label>
@@ -145,9 +146,5 @@ Di entrenamiento y capacitación a 3 community managers que se unieron al equipo
 
 <script src="/js/jquery.min.js"></script><!--bootstrap.min.js:6 Uncaught Error: Bootstrap's JavaScript requires jQuery-->
 <script src="/js/bootstrap.min.js"></script>
-
-<script>
-
-</script>
 </body>
 </html>
